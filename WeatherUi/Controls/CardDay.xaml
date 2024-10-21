@@ -20,6 +20,15 @@
                 </Style.Triggers>
             </Style>
         </Border.Style>
-        
+
+        <StackPanel>
+            <TextBlock Text="{Binding Path=Day,ElementName=cardDay}" TextAlignment="Center" FontSize="14" FontWeight="SemiBold"/>
+            <Image Source="{Binding Path=Source,ElementName=cardDay}" Width="30" Margin="0 10 0 10"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Text="{Binding Path=MaxNum,ElementName=cardDay}" TextAlignment="Center" FontWeight="SemiBold" Margin="0 0 8 0"/>
+                <TextBlock Text="{Binding Path=MinNum,ElementName=cardDay}" TextAlignment="Center" FontWeight="SemiBold" Foreground="#7a7a7a"/>
+            </StackPanel>
+        </StackPanel>
+
     </Border>
 </UserControl>
