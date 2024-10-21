@@ -4,8 +4,9 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WeatherUi"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        xmlns:uc="clr-namespace:WeatherUi.Controls"
+        WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" FontFamily="Cambria"
+        Background="Transparent" mc:Ignorable="d" Height="685" Width="995">
     <Grid>
         
     </Grid>
