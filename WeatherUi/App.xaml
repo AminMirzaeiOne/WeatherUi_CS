@@ -54,5 +54,21 @@
             </Style.Triggers>
         </Style>
 
+        <Style x:Key="activeTextButton" TargetType="Label" BasedOn="{StaticResource textButton}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Label">
+                        <TextBlock FontSize="16" FontWeight="SemiBold" Foreground="#333333">
+                            <TextBlock.TextDecorations>
+                                <TextDecoration Location="Underline" PenOffset="3" />
+                            </TextBlock.TextDecorations>
+                            
+                        <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </TextBlock>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
     </Application.Resources>
 </Application>
