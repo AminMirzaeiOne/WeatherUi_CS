@@ -43,6 +43,12 @@ namespace WeatherUi.Controls
             set { SetValue(MaxNumProperty, value); }
         }
 
+        public string MinNum
+        {
+            get { return (string)GetValue(MinNumProperty); }
+            set { SetValue(MinNumProperty, value); }
+        }
+
         public CardDay()
         {
             InitializeComponent();
