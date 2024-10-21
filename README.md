@@ -6,7 +6,6 @@ Designing the user interface of a meteorological program in WPF<br />
 <h2> ⭐ Features</h2>
 -Modern User Interface<br />
 - Light and Dark Mode Theme <br />
-- Change Colors
 
 <h2> 🏗 Build Information</h2>
 - Made in year = February 2019 <br />
