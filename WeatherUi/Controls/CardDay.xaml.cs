@@ -20,6 +20,9 @@ namespace WeatherUi.Controls
     /// </summary>
     public partial class CardDay : UserControl
     {
+        public static readonly DependencyProperty DayProperty = DependencyProperty.Register("Day", typeof(string), typeof(CardDay));
+
+
         public CardDay()
         {
             InitializeComponent();
