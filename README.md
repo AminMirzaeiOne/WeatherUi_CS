@@ -20,5 +20,4 @@ Designing the user interface of a meteorological program in WPF<br />
 2 - Choose from the menu options<br />
 
 <h2>📷 Screenshots</h2>
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/f9fe1179-a681-49e2-a670-de3461f8ff90">
-<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/be6e7e6e-a75b-4f39-97d6-b1c3f6fa5bfb">
+<img width="674" alt="Capture28" src="https://github.com/user-attachments/assets/7c9a1f80-777d-418d-9934-bdedcfa472a5">
