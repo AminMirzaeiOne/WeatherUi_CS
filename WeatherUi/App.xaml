@@ -23,6 +23,36 @@
             <Setter Property="BorderThickness" Value="0" />
             <Setter Property="VerticalAlignment" Value="Center" />
         </Style>
-        
+
+        <Style x:Key="textButton" TargetType="Label">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Label">
+                        <TextBlock FontSize="16" FontWeight="SemiBold" Foreground="#333333">
+                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </TextBlock>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Label">
+                                <TextBlock FontSize="16" FontWeight="SemiBold" Foreground="#333333">
+                                    <TextBlock.TextDecorations>
+                                        <TextDecoration Location="Underline" PenOffset="3" />
+                                    </TextBlock.TextDecorations>
+                            
+                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                </TextBlock>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
     </Application.Resources>
 </Application>
