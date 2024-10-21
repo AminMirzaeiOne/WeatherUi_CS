@@ -7,6 +7,19 @@
              mc:Ignorable="d" 
              Name="cardDay">
     <Border CornerRadius="10" Width="85" Padding="10" Margin="0 0 10 0" BorderThickness="1">
-            
+        <Border.Style>
+            <Style TargetType="Border">
+                <Setter Property="Background" Value="White" />
+                <Setter Property="BorderBrush" Value="#e9e9e9" />
+
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <!--<Setter Property="Background" Value="#F6F6F6" />-->
+                        <Setter Property="BorderBrush" Value="#03A9F4" />
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </Border.Style>
+        
     </Border>
 </UserControl>
