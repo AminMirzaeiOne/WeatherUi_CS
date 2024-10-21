@@ -21,6 +21,7 @@ namespace WeatherUi.Controls
     public partial class CardDay : UserControl
     {
         public static readonly DependencyProperty DayProperty = DependencyProperty.Register("Day", typeof(string), typeof(CardDay));
+        public static readonly DependencyProperty SourceProperty = DependencyProperty.Register("Source", typeof(ImageSource), typeof(CardDay));
 
 
         public CardDay()
