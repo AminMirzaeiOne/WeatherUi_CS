@@ -31,6 +31,12 @@ namespace WeatherUi.Controls
             set { SetValue(DayProperty, value); }
         }
 
+        public ImageSource Source
+        {
+            get { return (ImageSource)GetValue(SourceProperty); }
+            set { SetValue(SourceProperty, value); }
+        }
+
         public CardDay()
         {
             InitializeComponent();
