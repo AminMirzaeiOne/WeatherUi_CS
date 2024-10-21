@@ -245,5 +245,11 @@
             </ControlTemplate.Triggers>
         </ControlTemplate>
 
+        <ControlTemplate x:Key="SliderThumbVerticalDefault" TargetType="{x:Type Thumb}">
+            <Grid HorizontalAlignment="Center" UseLayoutRounding="True" VerticalAlignment="Center">
+                <Ellipse Fill="#4050D2" Width="18" Height="18"/>
+            </Grid>
+        </ControlTemplate>
+
     </Application.Resources>
 </Application>
