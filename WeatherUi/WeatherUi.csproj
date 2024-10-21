@@ -96,7 +96,24 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controls\" />
-    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\cloud.png" />
+    <Resource Include="Images\dir.png" />
+    <Resource Include="Images\dislike.png" />
+    <Resource Include="Images\explore.png" />
+    <Resource Include="Images\happy.png" />
+    <Resource Include="Images\like.png" />
+    <Resource Include="Images\q1.jpg" />
+    <Resource Include="Images\rain.png" />
+    <Resource Include="Images\rain_cloud.png" />
+    <Resource Include="Images\snow.png" />
+    <Resource Include="Images\storm.png" />
+    <Resource Include="Images\sun.png" />
+    <Resource Include="Images\sunrise.png" />
+    <Resource Include="Images\sunset.png" />
+    <Resource Include="Images\sun_cloud.png" />
+    <Resource Include="Images\water.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
