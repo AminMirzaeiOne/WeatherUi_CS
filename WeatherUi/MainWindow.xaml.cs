@@ -31,5 +31,10 @@ namespace WeatherUi
                 this.DragMove();
         }
 
+        private void textSearch_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            txtSearch.Focus();
+        }
+
     }
 }
