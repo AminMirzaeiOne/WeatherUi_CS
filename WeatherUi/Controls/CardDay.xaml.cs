@@ -25,6 +25,11 @@ namespace WeatherUi.Controls
         public static readonly DependencyProperty MaxNumProperty = DependencyProperty.Register("MaxNum", typeof(string), typeof(CardDay));
         public static readonly DependencyProperty MinNumProperty = DependencyProperty.Register("MinNum", typeof(string), typeof(CardDay));
 
+        public string Day
+        {
+            get { return (string)GetValue(DayProperty); }
+            set { SetValue(DayProperty, value); }
+        }
 
         public CardDay()
         {
