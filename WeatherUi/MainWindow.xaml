@@ -8,6 +8,10 @@
         WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" FontFamily="Cambria"
         Background="Transparent" mc:Ignorable="d" Height="685" Width="995">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="260"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
         
     </Grid>
 </Window>
