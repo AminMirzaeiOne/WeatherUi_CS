@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:WeatherUi.Controls"
              mc:Ignorable="d" 
              Name="cardDay">
-    <Border>
+    <Border CornerRadius="10" Width="85" Padding="10" Margin="0 0 10 0" BorderThickness="1">
             
     </Border>
 </UserControl>
