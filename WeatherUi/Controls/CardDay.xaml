@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:WeatherUi.Controls"
              mc:Ignorable="d" 
              Name="cardDay">
-    <Grid>
+    <Border>
             
-    </Grid>
+    </Border>
 </UserControl>
