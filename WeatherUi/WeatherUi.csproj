@@ -101,7 +101,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\AminMirzaeiProfile.png" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\cloud.png" />
     <Resource Include="Images\dir.png" />

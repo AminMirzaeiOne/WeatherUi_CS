@@ -69,6 +69,7 @@
                     </StackPanel>
 
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Ellipse Width="38" />
                         <Button Content="°C" Style="{StaticResource button}" Background="#1A1A1A" Foreground="#FFFFFF"/>
                         <Button Content="°F" Style="{StaticResource button}" Margin="10 0 0 0"/>
                     </StackPanel>
